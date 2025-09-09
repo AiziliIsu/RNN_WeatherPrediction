@@ -17,7 +17,5 @@ How to Run
 python rnn_weather_from_csv.py 1000 50 0.01
 
 - 1000: Number of training epochs.
-
 - 50: The size of the hidden layer.
-
 - 0.01: The learning rate.
