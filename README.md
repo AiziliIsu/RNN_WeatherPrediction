@@ -8,16 +8,16 @@ Features
 - Model Persistence: Saves the trained model weights and data scaling parameters to files, allowing for future use without retraining.
 
 Technologies Used
--Python: The core programming language.
--NumPy: Essential for all numerical operations and matrix manipulations.
--Pandas: Used for efficient data loading and handling of CSV files.
--Scikit-learn: Utilized for data preprocessing utilities like MinMaxScaler and LabelBinarizer.
+- Python: The core programming language.
+- NumPy: Essential for all numerical operations and matrix manipulations.
+- Pandas: Used for efficient data loading and handling of CSV files.
+- Scikit-learn: Utilized for data preprocessing utilities like MinMaxScaler and LabelBinarizer.
 
 How to Run
 python rnn_weather_from_csv.py 1000 50 0.01
 
---1000: Number of training epochs.
+- 1000: Number of training epochs.
 
---50: The size of the hidden layer.
+- 50: The size of the hidden layer.
 
---0.01: The learning rate.
+- 0.01: The learning rate.
